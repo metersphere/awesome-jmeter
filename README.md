@@ -1,8 +1,6 @@
 # JMeter 资源合集
 
-[Apache JMeter](https://jmeter.apache.org/) 是一个 Java 语言编写的开源性能测试工具，是目前最主流的开源性能测试工具。
-
-本资源集源自 [awesome-jmeter](https://github.com/aliesbelik/awesome-jmeter)。MeterSphere 团队针对国内用户进行了汉化、优化和进一步整理。
+[Apache JMeter](https://jmeter.apache.org/) 是一个 Java 语言编写的开源性能测试工具，是目前最主流的开源性能测试工具。本资源集源自 [awesome-jmeter](https://github.com/aliesbelik/awesome-jmeter)。MeterSphere 团队针对国内用户进行了汉化、优化和进一步整理。
 
 ## 官方资源
 
@@ -98,19 +96,11 @@
   - [JMeter + ElasticSearch Live Monitoring](https://medium.com/@anthony.gauthier325/jmeter-elasticsearch-live-monitoring-c895c843c51e) - Using the ElasticSearch Backend listener and Grafana/Kibana to monitor results in realtime.
 - Prometheus
   - [jmeter-prometheus-plugin](https://github.com/johrstrom/jmeter-prometheus-plugin) - A Prometheus Listener for Apache JMeter that exposes results in HTTP API.
-- ClickHouse
-  - [JMeter Results from ClickHouse](https://grafana.com/grafana/dashboards/9561) - Using the [JMeter Listener pack](https://gitlab.com/testload/jmeter-listener/-/wikis/3.3-ClickHouse-usage), ClickHouse and Grafana to collect and monitor test results.
 - Backend Listener Implementations
   - [jmeter-elasticsearch-backend-listener](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) - JMeter plugin to send test results to an ElasticSearch engine.
   - [jmeter-backend-azure](https://github.com/adrianmo/jmeter-backend-azure) - JMeter plugin to send test results to Azure Application Insights.
   - [jmeter-backend-listener-kafka](https://github.com/rahulsinghai/jmeter-backend-listener-kafka) - JMeter plugin to send test results to a Kafka server.
   - [jmeter-listener](https://gitlab.com/testload/jmeter-listener) - JMeter plugin to write load test data on-the-fly to ClickHouse, InfluxDB, ElasticSearch.
-- Custom & Deprecated
-  - [Using Matplotlib & Python](https://www.metaltoad.com/blog/plotting-your-load-test-jmeter) - Plotting JMeter load test results with Matplotlib plotting tool and Python.
-  - [Statistical Aggregate Report](http://rubenlaguna.com/wp/better-jmeter-graphs/) - Custom Statistical Aggregate Report listener for enhanced results visualization.
-  - [JChav](https://github.com/d6y/jchav) - JMeter Chart History and Visualisation library.
-  - JMeter Dashboard: [howto](http://seangkuan.blogspot.com/2015/06/jmeter-dashboard-realtime-monitoring-of.html), [sources](https://github.com/vincentskooi/JMeterDashboard) - Realtime monitoring of JMeter load test.
-  - [Using CMDRunner & Powershell](http://performancewebautoamtionother.blogspot.com/2015/12/jmeter-create-graphs-with-cmdrunner.html) - Create JMeter graphs with CMDRunner with powershell parallel execution.
 
 ## Streaming Protocols
 
@@ -173,5 +163,7 @@
 - [OctoPerf Blog](https://octoperf.com/categories/jmeter/) - OctoPerf blog about JMeter and load testing.
 
 ## License
+
+https://github.com/aliesbelik/awesome-jmeter
 
 <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/88x31.png" /></a>
